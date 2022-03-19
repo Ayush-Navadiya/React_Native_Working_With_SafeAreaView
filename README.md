@@ -1,7 +1,7 @@
 # React_Native_Working_With_SafeAreaView
 React Native SafeAreaView Example
 
-
+#### Note : I have not used SafeAreaView from react native core component because it some times don't work properly.
 
 ---
 ### What is SafeAreaView
