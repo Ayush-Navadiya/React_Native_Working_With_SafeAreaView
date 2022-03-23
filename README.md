@@ -1,12 +1,13 @@
 # React_Native_Working_With_SafeAreaView
 React Native SafeAreaView Example
 
+
 #### Note : I have not used SafeAreaView from react native core component because it some times don't work properly.
 
 ---
-### What is WebView
+### What is SafeAreaView
 
-> WebView renders web content in a native view.
+> SafeAreaView renders nested content and automatically applies padding to reflect the portion of the view that is not covered by navigation bars, tab bars, toolbars, and other ancestor views. Moreover, and most importantly, Safe Area's paddings reflect the physical limitation of the screen, such as rounded corners or camera notches (i.e. the sensor housing area on iPhone 13).
 
 
 ---
@@ -38,7 +39,7 @@ React Native SafeAreaView Example
 
 ---
 ## Output
-![Output](https://github.com/Ayush-Navadiya/React_Native_Working_With_WebView/blob/master/Output/output.jpg)
+![Output](https://github.com/Ayush-Navadiya/React_Native_Working_With_SafeAreaView/blob/master/Screenshots/SafeAreaView.jpg)
 
 
 
@@ -81,36 +82,21 @@ Note: When You Run the 'expo init' command it will ask you to choose template go
 8. You will see the output on the targeted device
 9. Run command
 ```bash
-npm install react-native-webview --save
+npm install react-native-safe-area-context --save
 ```
 10. To see the output on screen. Change the app.js code with the code given bellow
 
 ```
-
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text } from 'react-native';
-import { WebView } from 'react-native-webview';
+import { Text } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function App() {
   return (
-      <WebView
-        source={{
-          uri: 'https://www.buymeacoffee.com/ayushnavadiya'
-        }}
-        style={{ marginTop: 20 }}
-      />
+    <SafeAreaView>
+      <Text>Stuff inside SafeAreaView</Text>
+      <StatusBar style="auto" />
+    </SafeAreaView>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
-
 ```
-
-
