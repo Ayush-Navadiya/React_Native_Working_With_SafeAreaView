@@ -39,7 +39,7 @@ React Native SafeAreaView Example
 
 ---
 ## Output
-<img src="https://github.com/Ayush-Navadiya/React_Native_Working_With_SafeAreaView/blob/master/Screenshots/SafeAreaView.jpg" width=250>
+<img src="https://github.com/Ayush-Navadiya/React_Native_Working_With_SafeAreaView/blob/master/Screenshots/SafeAreaView.jpg" width=400>
 
 
 
