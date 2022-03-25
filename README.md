@@ -39,7 +39,7 @@ React Native SafeAreaView Example
 
 ---
 ## Output
-![Output](https://github.com/Ayush-Navadiya/React_Native_Working_With_SafeAreaView/blob/master/Screenshots/SafeAreaView.jpg)
+<img src="https://github.com/Ayush-Navadiya/React_Native_Working_With_SafeAreaView/blob/master/Screenshots/SafeAreaView.jpg" width=250>
 
 
 
@@ -86,7 +86,7 @@ npm install react-native-safe-area-context --save
 ```
 10. To see the output on screen. Change the app.js code with the code given bellow
 
-```
+```javascript
 import { StatusBar } from 'expo-status-bar';
 import { Text } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
